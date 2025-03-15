@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="陆渊世泽">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2025/03/15/线性表/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+    
+    
+        
+        <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="线性表">
+<meta property="og:url" content="http://example.com/2025/03/15/%E7%BA%BF%E6%80%A7%E8%A1%A8/index.html">
+<meta property="og:site_name" content="陆渊世泽">
+<meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/images/redefine-og.webp">
+<meta property="article:published_time" content="2025-03-15T07:38:48.000Z">
+<meta property="article:modified_time" content="2025-03-15T07:44:41.213Z">
+<meta property="article:author" content="John Doe">
+<meta property="article:tag" content="线性表">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
+    <!--- Page Info-->
+    
+    <title>
+        
+            线性表 | 陆渊世泽
+        
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/css/build/tailwind.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"example.com","root":"/","language":"en"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":false,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":{"enable":true,"image":"/images/redefine-og.webp","description":"Hexo Theme Redefine, Redefine Your Hexo Journey."},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"我的个人博客","subtitle":{"text":[],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null,"douyin":"https://v.douyin.com/i5GunKyM/","icon":"fa-brands fa-tiktok"},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":true,"type":"fixed","audios":[{"name":"IVORY TOWER","artist":"泽野弘之&SennaRin","url":"/music/IVORY TOWER.mp3","cover":"/music/IVORY TOWER.jpg","lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1"}},"version":"2.8.2","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"show_on_mobile":true,"links":null},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"20254/3/15 11:45:14"};
+    window.lang_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"><style>mjx-container[jax="SVG"] {
+  direction: ltr;
+}
+
+mjx-container[jax="SVG"] > svg {
+  overflow: visible;
+}
+
+mjx-container[jax="SVG"][display="true"] {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+mjx-container[jax="SVG"][justify="left"] {
+  text-align: left;
+}
+
+mjx-container[jax="SVG"][justify="right"] {
+  text-align: right;
+}
+
+g[data-mml-node="merror"] > g {
+  fill: red;
+  stroke: red;
+}
+
+g[data-mml-node="merror"] > rect[data-background] {
+  fill: yellow;
+  stroke: none;
+}
+
+g[data-mml-node="mtable"] > line[data-line] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > rect[data-frame] {
+  stroke-width: 70px;
+  fill: none;
+}
+
+g[data-mml-node="mtable"] > .mjx-dashed {
+  stroke-dasharray: 140;
+}
+
+g[data-mml-node="mtable"] > .mjx-dotted {
+  stroke-linecap: round;
+  stroke-dasharray: 0,140;
+}
+
+g[data-mml-node="mtable"] > svg {
+  overflow: visible;
+}
+
+[jax="SVG"] mjx-tool {
+  display: inline-block;
+  position: relative;
+  width: 0;
+  height: 0;
+}
+
+[jax="SVG"] mjx-tool > mjx-tip {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+mjx-tool > mjx-tip {
+  display: inline-block;
+  padding: .2em;
+  border: 1px solid #888;
+  font-size: 70%;
+  background-color: #F8F8F8;
+  color: black;
+  box-shadow: 2px 2px 5px #AAAAAA;
+}
+
+g[data-mml-node="maction"][data-toggle] {
+  cursor: pointer;
+}
+
+mjx-status {
+  display: block;
+  position: fixed;
+  left: 1em;
+  bottom: 1em;
+  min-width: 25%;
+  padding: .2em .4em;
+  border: 1px solid #888;
+  font-size: 90%;
+  background-color: #F8F8F8;
+  color: black;
+}
+
+foreignObject[data-mjx-xml] {
+  font-family: initial;
+  line-height: normal;
+  overflow: visible;
+}
+
+.MathJax path {
+  stroke-width: 3;
+}
+
+mjx-container[display="true"] {
+  overflow: auto hidden;
+}
+
+mjx-container[display="true"] + br {
+  display: none;
+}
+</style></head>
+
+
+
+<body>
+	<div class="progress-bar-container">
+	
+
+	
+	<span class="pjax-progress-bar"></span>
+	<!--        <span class="swup-progress-icon">-->
+	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+	<!--        </span>-->
+	
+</div>
+
+<main class="page-container" id="swup">
+
+	
+
+	<div class="main-content-container flex flex-col justify-between min-h-dvh">
+		<div class="main-content-header">
+			<header class="navbar-container px-6 md:px-12">
+    <div class="navbar-content transition-navbar ">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                
+                陆渊世泽
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    HOME
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                HOME
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+
+            
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">1</div>
+        <div class="label text-third-text-color text-sm">Tags</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
+        <div class="label text-third-text-color text-sm">Categories</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">2</div>
+        <div class="label text-third-text-color text-sm">Posts</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+		</div>
+
+		<div class="main-content-body transition-fade-up">
+			
+
+			<div class="main-content">
+				<div class="post-page-container flex relative justify-between box-border w-full h-full">
+	<div class="article-content-container">
+
+		<div class="article-title relative w-full">
+			
+			<div class="w-full flex items-center pt-6 justify-start">
+				<h1 class="article-title-regular text-second-text-color tracking-tight text-4xl md:text-6xl font-semibold px-2 sm:px-6 md:px-8 py-3">线性表</h1>
+			</div>
+			
+		</div>
+
+		
+		<div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+			<div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+				<img src="/images/redefine-avatar.svg">
+			</div>
+			<div class="info flex flex-col justify-between">
+				<div class="author flex items-center">
+					<span class="name text-default-text-color text-lg font-semibold">陆渊世泽</span>
+					
+					<span class="author-label ml-1.5 text-xs px-2 py-0.5 rounded-small text-third-text-color border border-shadow-color-1">Lv1</span>
+					
+				</div>
+				<div class="meta-info">
+					<div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2025-03-15 15:38:48</span>
+        <span class="mobile">2025-03-15 15:38:48</span>
+        <span class="hover-info">Created</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2025-03-15 15:44:41</span>
+            <span class="mobile">2025-03-15 15:44:41</span>
+            <span class="hover-info">Updated</span>
+        </span>
+    
+
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/%E7%BA%BF%E6%80%A7%E8%A1%A8/">线性表</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+				</div>
+			</div>
+		</div>
+		
+
+		
+
+
+		<div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+			<h2 id="线性表的特点："><a href="#线性表的特点：" class="headerlink" title="线性表的特点："></a>线性表的特点：</h2><ul>
+<li>相同的数据元素（说明所有数据元素所占用的空间是一样大的）</li>
+<li>有次序，有限性</li>
+<li>有前驱（直接前驱），有后继（直接后继）并且都是有且仅有</li>
+</ul>
+<h2 id="c语言实现动态分配内存"><a href="#c语言实现动态分配内存" class="headerlink" title="c语言实现动态分配内存"></a>c语言实现动态分配内存</h2><div class="code-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> InitSize 100<span class="comment">//表的初始长度</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> ElemType;<span class="comment">//ElemType在表中为int型(typedef的作用就是取别名增加代码的可读性，比如这里就是将int型取一个别名，现在可以将ElemType看作是int的型，也是占用4个字节)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>{</span></span><br><span class="line">ElemType *data;<span class="comment">//指示动态分配数组的指针（int型的指针）</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> MAXSIZE;<span class="comment">//分配数组的最大长度</span></span><br><span class="line"><span class="type">int</span> length;<span class="comment">//当前长度</span></span><br><span class="line"></span><br><span class="line">}SeqList;<span class="comment">//动态分配数组顺序表的类型定义</span></span><br><span class="line"></span><br><span class="line">SeqList L;<span class="comment">//定义一个顺序表</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//初始化顺序表</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">InitList</span><span class="params">(SeqList *L)</span>{</span><br><span class="line"></span><br><span class="line">L-&gt;length=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">//动态分配数组</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">IncreaseSize</span><span class="params">(SeqList *L,<span class="type">int</span> len)</span>{</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> *p=L-&gt;data;<span class="comment">//p指向原来的数组，将原来的数组的内存地址给p</span></span><br><span class="line"></span><br><span class="line">L-&gt;data=(ElemType *)<span class="built_in">malloc</span>((L-&gt;MAXSIZE+len)*<span class="keyword">sizeof</span>(ElemType));<span class="comment">//分配一个新的数组，计算新的数组的内存地址</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;L-&gt;length;i++){</span><br><span class="line"></span><br><span class="line">L-&gt;data[i]=p[i];<span class="comment">//将原来的数组（当前长度的数组）复制到新的数组</span></span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">L-&gt;MAXSIZE=L-&gt;MAXSIZE+len;<span class="comment">//改变数组的最大长度</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">free</span>(p);<span class="comment">//释放原来的数组，申请了空间记得释放掉</span></span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"><span class="comment">//但是时间开销很大</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="顺序表的插入操作"><a href="#顺序表的插入操作" class="headerlink" title="顺序表的插入操作"></a>顺序表的插入操作</h2><div class="code-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdbool.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> InitSize 100<span class="comment">//表的初始长度</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> ElemType;<span class="comment">//ElemType在表中为int型</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span>{</span></span><br><span class="line"></span><br><span class="line">ElemType *data;<span class="comment">//指示动态分配数组的指针</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> MAXSIZE;<span class="comment">//分配数组的最大长度</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> length;<span class="comment">//当前长度</span></span><br><span class="line"></span><br><span class="line">}SeqList;<span class="comment">//动态分配数组顺序表的类型定义</span></span><br><span class="line"></span><br><span class="line">SeqList L;<span class="comment">//定义一个顺序表</span></span><br><span class="line"></span><br><span class="line">  </span><br><span class="line"></span><br><span class="line"><span class="comment">//初始化顺序表</span></span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">InitList</span><span class="params">(SeqList *L)</span>{</span><br><span class="line"></span><br><span class="line">L-&gt;length=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">//插入</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//c语言不支持bool类型，所有要加入头文件stdbool.h</span></span><br><span class="line"></span><br><span class="line"><span class="type">bool</span> <span class="title function_">ListInsert</span><span class="params">(SeqList *L,<span class="type">int</span> i,ElemType e)</span>{</span><br><span class="line"></span><br><span class="line">    <span class="comment">//传入的三个变量，一个是顺序表，一个是插入的位置，一个是插入的元素</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(i&lt;<span class="number">1</span>||i&gt;L-&gt;length+<span class="number">1</span>)<span class="comment">//i如果小于1或者大于表长加1，返回false</span></span><br><span class="line"><span class="comment">//由于顺序表的特点，必须是逻辑结构和存储结构都必须相邻在一起，所以在末尾插入的时候只能+1的插入，如果+2则就不相邻，那么就不是线性表</span></span><br><span class="line"><span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(L-&gt;length&gt;=L-&gt;MAXSIZE)</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> j=L-&gt;length;j&gt;=i;j--)   </span><br><span class="line"></span><br><span class="line"><span class="comment">//为什么是L-&gt;length而不是L-&gt;length+1？</span></span><br><span class="line"><span class="comment">//因为这里用的是顺序表的位置（其开始位置是1而不是0），从整个顺序表的真实长度开始算，一直相减到需要插入的位置</span></span><br><span class="line"><span class="comment">//顺序表元素索引从0开始，而插入位置i从1开始计数，需要转换为数组索引`i-1`</span></span><br><span class="line"><span class="comment">//L-&gt;length表示当前存储的元素数量，maxsize表示最大大小，如果是length=maxsize,那么在数组中的索引范围为[0，maxsize-1]，在已满的情况下插入会越界，超过masize的大小</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//这里为什么是j--?为什么不能改为j++?</span></span><br><span class="line"><span class="comment">//因为插入是将元素往后移动，如果改为j++，数组将变为从前向后遍历数组，会将本身存储在后面的元素给覆盖掉。</span></span><br><span class="line"><span class="comment">//如果实在要改为从前面遍历数组，确保你已经为新元素腾出了空间，并且不会覆盖原有数据，由此实现j++</span></span><br><span class="line">{</span><br><span class="line"></span><br><span class="line">L-&gt;data[i]=L-&gt;data[i<span class="number">-1</span>];<span class="comment">//将第i个元素及之后的元素后移</span></span><br><span class="line"></span><br><span class="line">}</span><br><span class="line">L-&gt;data[i<span class="number">-1</span>]=e;<span class="comment">//在位置i处放入e</span></span><br><span class="line"></span><br><span class="line">L-&gt;length++;<span class="comment">//表长加1</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+<p><strong>线性表中的位序是由1开始的，但是在数组中，元素的下标是从0开始的</strong></p>
+<table>
+<thead>
+<tr>
+<th>数组下标</th>
+<th>顺序表</th>
+<th>内存地址</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>0</td>
+<td>1</td>
+<td>loc(A)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>loc(A)+sizeof(Elemtype)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>loc(A)+2sizeof(Elemtype)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>4</td>
+<td>loc(A)+3sizeof(Elemtype)</td>
+</tr>
+<tr>
+<td>……</td>
+<td>……</td>
+<td>……</td>
+</tr>
+<tr>
+<td>n-1</td>
+<td>n</td>
+<td>loc(A)+(n-1)sizeof(Elemtype)</td>
+</tr>
+<tr>
+<td>maxsize-1</td>
+<td>maxsize</td>
+<td></td>
+</tr>
+</tbody></table>
+<p><strong>所以说如果在第n个位置添加一个元素e，其中第n个元素的位置的数组的下标是n-1，所以需要把n-1乃至后面的数据全部像后面移动一位，所以代码为：</strong></p>
+<div class="code-container" data-rel="C"><figure class="iseeu highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">L-&gt;data[n]=L-&gt;data[n<span class="number">-1</span>]<span class="comment">//将n-1位置的数据赋值给n</span></span><br></pre></td></tr></table></figure></div>
+<h2 id="顺序表删除操作"><a href="#顺序表删除操作" class="headerlink" title="顺序表删除操作"></a>顺序表删除操作</h2><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;string.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdbool.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> InitSize 100<span class="comment">//表的初始长度</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="type">int</span> ElemType;<span class="comment">//ElemType在表中为int型</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">struct</span>{</span><br><span class="line"></span><br><span class="line">ElemType *data;<span class="comment">//指示动态分配数组的指针</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> MAXSIZE;<span class="comment">//分配数组的最大长度</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> length;<span class="comment">//当前长度</span></span><br><span class="line"></span><br><span class="line">}SeqList;<span class="comment">//动态分配数组顺序表的类型定义</span></span><br><span class="line"></span><br><span class="line">SeqList L;<span class="comment">//定义一个顺序表</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//初始化顺序表</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InitList</span><span class="params">(SeqList *L)</span></span>{</span><br><span class="line"></span><br><span class="line">L-&gt;length=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">//删除顺序表</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">DestroyList</span><span class="params">(SeqList &amp;L,<span class="type">int</span> i,<span class="type">int</span> &amp;e)</span></span>{</span><br><span class="line"><span class="comment">//i表示删除的元素的位置，&amp;e把main函数中的e的元素给引用起来，实参传递</span></span><br><span class="line"><span class="keyword">if</span>(i&lt;<span class="number">1</span>||i&gt;L.length)</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line">e=L.data[i<span class="number">-1</span>];</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="type">int</span> j=i;j&lt;L.length;j++)</span><br><span class="line"></span><br><span class="line">{</span><br><span class="line"></span><br><span class="line">L.data[j<span class="number">-1</span>]=L.data[j];</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="顺序表的查找操作"><a href="#顺序表的查找操作" class="headerlink" title="顺序表的查找操作"></a>顺序表的查找操作</h2><h3 id="1-按位查找"><a href="#1-按位查找" class="headerlink" title="1) 按位查找"></a>1) 按位查找</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">//按位查找</span></span><br><span class="line"></span><br><span class="line"><span class="function">ElemType <span class="title">GetElem</span><span class="params">(SeqList &amp;L,<span class="type">int</span> i)</span></span>{</span><br><span class="line"></span><br><span class="line"><span class="keyword">return</span> L.data[i<span class="number">-1</span>];</span><br><span class="line"></span><br><span class="line">}</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<h3 id="2）按值查找"><a href="#2）按值查找" class="headerlink" title="2）按值查找"></a>2）按值查找</h3><div class="code-container" data-rel="Cpp"><figure class="iseeu highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//按值查找</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">LocateElem</span><span class="params">(SeqList &amp;L,ElemType &amp;e)</span></span>{</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;L.length;i++){</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(L.data[i]==e){</span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> i<span class="number">+1</span>;</span><br><span class="line"></span><br><span class="line">        }</span><br><span class="line"></span><br><span class="line">    }</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure></div>
+
+		</div>
+
+		
+		<div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+			<div class="article-copyright-info-container">
+    <ul>
+        <li><strong>Title:</strong> 线性表</li>
+        <li><strong>Author:</strong> 陆渊世泽</li>
+        <li><strong>Created at
+                :</strong> 2025-03-15 15:38:48</li>
+        
+            <li>
+                <strong>Updated at
+                    :</strong> 2025-03-15 15:44:41
+            </li>
+        
+        <li>
+            <strong>Link:</strong> https://redefine.ohevan.com/2025/03/15/线性表/
+        </li>
+        <li>
+            <strong>
+                License:
+            </strong>
+            
+
+            
+                This work is licensed under <a class="license" target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0</a>.
+            
+        </li>
+    </ul>
+</div>
+
+		</div>
+		
+
+		
+		<ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+			
+			<li class="tag-item mx-0.5">
+				<a href="/tags/%E7%BA%BF%E6%80%A7%E8%A1%A8/">#线性表</a>&nbsp;
+			</li>
+			
+		</ul>
+		
+
+		
+
+		
+		<div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+			
+			
+			<div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+				<a class="next" rel="next" href="/2025/03/15/hello-world/">
+					<span class="title flex justify-center items-center">
+						<span class="post-nav-title-item">Hello World</span>
+						<span class="post-nav-item">Next posts</span>
+					</span>
+					<span class="right arrow-icon flex justify-center items-center">
+						<i class="fa-solid fa-chevron-right"></i>
+					</span>
+				</a>
+			</div>
+			
+		</div>
+		
+
+
+		
+		<div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+			<div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        Comments
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.example.com',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: false,
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+          
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+		</div>
+		
+	</div>
+
+	
+	<div class="toc-content-container">
+		<div class="post-toc-wrap">
+	<div class="post-toc">
+		<div class="toc-title">On this page</div>
+		<div class="page-title">线性表</div>
+		<ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%BA%BF%E6%80%A7%E8%A1%A8%E7%9A%84%E7%89%B9%E7%82%B9%EF%BC%9A"><span class="nav-text">线性表的特点：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#c%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%88%86%E9%85%8D%E5%86%85%E5%AD%98"><span class="nav-text">c语言实现动态分配内存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%BA%E5%BA%8F%E8%A1%A8%E7%9A%84%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C"><span class="nav-text">顺序表的插入操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%BA%E5%BA%8F%E8%A1%A8%E5%88%A0%E9%99%A4%E6%93%8D%E4%BD%9C"><span class="nav-text">顺序表删除操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%A1%BA%E5%BA%8F%E8%A1%A8%E7%9A%84%E6%9F%A5%E6%89%BE%E6%93%8D%E4%BD%9C"><span class="nav-text">顺序表的查找操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E6%8C%89%E4%BD%8D%E6%9F%A5%E6%89%BE"><span class="nav-text">1) 按位查找</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2%EF%BC%89%E6%8C%89%E5%80%BC%E6%9F%A5%E6%89%BE"><span class="nav-text">2）按值查找</span></a></li></ol></li></ol>
+
+	</div>
+</div>
+	</div>
+	
+</div>
+			</div>
+
+			
+		</div>
+
+		<div class="main-content-footer">
+			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>20254</span>
+              -
+            
+            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">陆渊世泽</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        2 posts in total
+                    </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                    <span id="busuanzi_container_site_uv" class="lg:!block">
+                        <span class="text-sm">VISITOR COUNT</span>
+                        <span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">TOTAL PAGE VIEWS</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">POWERED BY <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a></span>
+            <span class="text-sm lg:block">THEME&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.8.2</a></span>
+        </div>
+        
+        
+            <div>
+                Blog up for <span class="odometer" id="runtime_days" ></span> days <span class="odometer" id="runtime_hours"></span> hrs <span class="odometer" id="runtime_minutes"></span> Min <span class="odometer" id="runtime_seconds"></span> Sec
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+		</div>
+	</div>
+
+	
+	<div class="post-tools">
+		<div class="post-tools-container">
+	<ul class="article-tools-list">
+		<!-- TOC aside toggle -->
+		
+		<li class="right-bottom-tools page-aside-toggle">
+			<i class="fa-regular fa-outdent"></i>
+		</li>
+		
+
+		<!-- go comment -->
+		
+		<li class="go-comment">
+			<i class="fa-regular fa-comments"></i>
+		</li>
+		
+	</ul>
+</div>
+	</div>
+	
+
+	<div class="right-side-tools-container">
+		<div class="side-tools-container">
+	<ul class="hidden-tools-list">
+		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-plus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+			<i class="fa-regular fa-magnifying-glass-minus"></i>
+		</li>
+
+		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+			<i class="fa-regular fa-moon"></i>
+		</li>
+
+		<!-- rss -->
+		
+
+		
+
+		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+			<i class="fa-regular fa-arrow-down"></i>
+		</li>
+	</ul>
+
+	<ul class="visible-tools-list">
+		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+			<i class="fa-regular fa-cog fa-spin"></i>
+		</li>
+		
+		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+			<i class="arrow-up fas fa-arrow-up"></i>
+			<span class="percent"></span>
+		</li>
+		
+		
+	</ul>
+</div>
+	</div>
+
+	<div class="image-viewer-container">
+	<img src="">
+</div>
+
+	
+
+</main>
+
+
+
+<script src="/js/build/libs/Swup.min.js"></script>
+
+<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+	
+<script src="/js/build/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/build/utils.js" type="module"></script>
+
+<script src="/js/build/main.js" type="module"></script>
+
+<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/build/layouts/categoryList.js" type="module"></script>
+
+
+
+
+
+    
+<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/build/tools/runtime.js"></script>
+
+    
+<script src="/js/build/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/build/libs/Typed.min.js"></script>
+
+  
+<script src="/js/build/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+    
+<script src="/js/build/libs/anime.min.js"></script>
+
+
+
+
+
+    
+<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script=""></script>
+
+<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script=""></script>
+
+
+
+
+<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
+
+
+<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script=""></script>
+
+
+
+
+
+	
+	<div id="aplayer"></div>
+
+<script src="/js/build/libs/APlayer.min.js"></script>
+
+
+<script src="/js/build/plugins/aplayer.js"></script>
+
+
+	
+</body>
+
+</html>
